@@ -1,0 +1,31 @@
+/* ------------- Partners-------------------- */
+.clients-section {
+  padding: 94px 0;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+  gap: 30px;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  fill: var(--icon-color);
+  transition: var(--fill-animation), var(--border-animation);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--color-acent);
+  fill: var(--color-acent);
+}

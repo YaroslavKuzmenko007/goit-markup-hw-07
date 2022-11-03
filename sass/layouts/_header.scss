@@ -1,0 +1,109 @@
+/* --------- Header  ------------------------*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.head {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--color-acent);
+  text-decoration: none;
+  margin-right: 93px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item+.menu-item {
+  /* border: 1px red solid; */
+  margin-left: 50px;
+}
+
+.header .contact-item+.contact-item {
+  margin-left: 50px;
+}
+
+.menu-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  position: relative;
+  padding: 32px 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--main-color-font);
+  transition: var(--color-animation);
+}
+
+.current {
+  color: var(--color-acent);
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-acent);
+}
+
+.header .contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-mail,
+.contact-tel {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+  transition: var(--color-animation), var(--fill-animation);
+}
+
+.contact-envelope-icon,
+.contact-smartphone-icon {
+  margin-right: 10px;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-tel:hover,
+.contact-tel:focus,
+.href:hover,
+.href:focus {
+  color: var(--color-acent);
+  fill: var(--color-acent);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .contact {
+  margin-left: auto;
+}
+
+.header-mail,
+.header-tel {
+  display: flex;
+  align-items: center;
+}
