@@ -63,11 +63,11 @@
   border-color: transparent;
   cursor: pointer;
   transition: var(--box-shadow-animation);
+    &:hover,
+    &:focus {
+      background-color: var(--btn-hover);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      transition: var(--box-shadow-animation), var(--bg-animation);
+    }
 }
 
-.footter-mailing-btn:hover,
-.footter-mailing-btn:focus {
-  background-color: var(--btn-hover);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: var(--box-shadow-animation), var(--bg-animation);
-}

@@ -29,9 +29,10 @@
   justify-content: center;
   fill: var(--color-white);
   transition: var(--bg-animation);
+    &:hover,
+    &:focus {
+      background-color: var(--color-acent);
+    }
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--color-acent);
-}
+

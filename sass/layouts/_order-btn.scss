@@ -14,9 +14,9 @@
   padding: 10px 32px;
   margin: 0 auto;
   transition: var(--bg-animation);
+    &:hover,
+    &:focus {
+      background-color: var(--btn-hover);
+    }
 }
 
-.order-buuton:hover,
-.order-buuton:focus {
-  background-color: var(--btn-hover);
-}

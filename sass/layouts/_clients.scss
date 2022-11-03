@@ -22,10 +22,9 @@
   border-radius: 4px;
   fill: var(--icon-color);
   transition: var(--fill-animation), var(--border-animation);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid var(--color-acent);
-  fill: var(--color-acent);
+    &:hover,
+    &:focus {
+      border: 1px solid var(--color-acent);
+      fill: var(--color-acent);
+    }
 }

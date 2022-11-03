@@ -19,11 +19,19 @@
   color: var(--color-white);
   text-decoration: none;
   transition: var(--color-animation);
+    &:hover,
+    &:focus {
+      color: var(--color-acent);
+    }
 }
 
 .address {
   line-height: 1.71;
   font-style: normal;
+    &:hover,
+    &:focus {
+      color: var(--color-acent);
+    }
 }
 
 .footer .head {
@@ -33,8 +41,8 @@
 
 .address .contact-item {
   margin-bottom: 9px;
+     &:last-child {
+      margin-bottom: 0;
+    }
 }
 
-.address .contact-item:last-child {
-  margin-bottom: 0;
-}

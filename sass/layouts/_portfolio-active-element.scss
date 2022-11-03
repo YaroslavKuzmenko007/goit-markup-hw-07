@@ -10,9 +10,9 @@
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .portfolio-link:hover &,
+    .portfolio-link:focus & {
+      transform: translateY(0);
+    }
 }
 
-.portfolio-link:hover .up-text,
-.portfolio-link:focus .up-text {
-  transform: translateY(0);
-}

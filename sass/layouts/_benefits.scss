@@ -19,18 +19,19 @@
 
 .benefits-item {
   width: 270px;
+  &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      background-size: 70px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: var(--bg-section);
+      border-radius: 4px;
+    }
 }
 
-.benefits-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--bg-section);
-  border-radius: 4px;
-}
+
 
 .icon-antenna::before {
   background-image: url(../images/antenna.svg);

@@ -6,6 +6,12 @@
 
 
 @import './components/container';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form';
+@import './components/form-coment';
+@import './components/modal-form-check';
+@import './components/modal-form-btn';
 
 @import './layouts/header';
 @import './layouts/hero';
@@ -15,17 +21,16 @@
 @import './layouts/our-team';
 @import './layouts/team-soc-list';
 @import './layouts/clients';
+
 @import './layouts/footer-general';
 @import './layouts/footer-soc';
 @import './layouts/footer-mail';
+
 @import './layouts/portfolio-nav-btn';
 @import './layouts/portfolio-elements';
 @import './layouts/portfolio-active-element';
-@import './layouts/modal';
-@import './layouts/form';
-@import './layouts/form-coment';
-@import './layouts/modal-form-check';
-@import './layouts/modal-form-btn';
+
+
 
 
 

@@ -14,10 +14,10 @@
   justify-content: center;
   fill: var(--icon-color);
   transition: var(--bg-animation), var(--fill-animation);
+    &:hover,
+    &:focus {
+      background-color: var(--color-acent);
+      fill: var(--color-white);
+    }
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--color-acent);
-  fill: var(--color-white);
-}
