@@ -3,7 +3,7 @@
   padding: 94px 0;
 }
 
-.benefit-head {
+.benefit__head {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-.benefits-item {
+.benefits__item {
   width: 270px;
   &::before {
       display: block;
@@ -49,7 +49,7 @@
   background-image: url(../images/astronaut.svg);
 }
 
-.benefits-text {
+.benefits__text {
   line-height: 1.71;
   color: var(--secondary-color);
 }

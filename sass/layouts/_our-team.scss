@@ -1,5 +1,5 @@
 /*--------------------------- our-team ---------------*/
-.team-head {
+.team__discription-head {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 
-.team-item {
+.team__item {
   width: 270px;
   text-align: center;
   background-color: var(--color-white);
@@ -31,11 +31,11 @@
   padding: 30px 0;
 }
 
-.team-head {
+.team__discription-head {
   margin-bottom: 10px;
 }
 
-.team-position {
+.team__discription-position {
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-color);
